@@ -1,0 +1,24 @@
+1. golden rule of version control: only combine changes from the same topic in a signle topic
+2. perfect commit msg: 
+	a-> subject: concise summary of what happended.
+	b-> body: more detail explanation. Ques must be: i) What is now different than before? ii) What's the reason for the change? iii) is there anything to watch for/ anything particularly remarkable?
+3. fast-forward merge: both branch share the same history
+4. warning notice: do not use REBASE on commits that you've already pushed/shared on a remote repository | instead use it for cleaning up your local commit his before merging it into shared team branch.
+ 
+
+
+
+
+
+
+
+
+git-commands:
+1. git diff index.html
+2. git add -p index.html # -p; patch level; which patch level to include and what not.| ask the ques of different(patch) level of change
+3. git commit [opens vim to write commit msg ]
+4. git log [shows the all commits ]
+5. git checkout -b test [create a new branch and checkout to the branch]
+6. git push --set-upstream origin test/master/any branch u want. [push to the forked repo]
+7. git merge --abort | git rebase --abort ; undo a conflict and start over.
+8. 
